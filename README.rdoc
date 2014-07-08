@@ -1,28 +1,23 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+We're going to build a simple survey tool. With the following requirements:
 
-Things you may want to cover:
+  A user should be able to create any number of surveys
 
-* Ruby version
+  A survey consists of one question represented as a single string. The answer to the question is always yes or no.
 
-* System dependencies
+  The home screen of our app should show a list of surveys and a button to create a new one
+  
+  We don't need to worry about user authentication but you may stub this out if you wish
 
-* Configuration
+  A user can respond to a survey by clicking into it from the list discussed above
 
-* Database creation
+  A survey can be answered multiple times with a yes/no response
 
-* Database initialization
+  We should keep track of when each of the survey responses are saved
 
-* How to run the test suite
+  We should display the results of the survey on the home screen with the percentage of yes and no responses.
 
-* Services (job queues, cache servers, search engines, etc.)
+== REQUIREMENTS
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+You should make sure that your app can be run by other developers. Make sure all of your dependencies are listed in your Gemfile and instructions are provided for setup if needed. You may use SQLite or MongoDB.
