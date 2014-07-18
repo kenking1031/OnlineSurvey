@@ -1,0 +1,15 @@
+<div class="container">
+<h1><a href='#'>Apple Survey App</a></h1>
+  <!--<div class='row'>-->
+    <!--<div class='span4'><ul class="nav nav-list"><li class="active"><a href="#"> Question</a></li></ul></div>-->
+    <!--<div class='span4'><ul class="nav nav-list"><li class="active"><a href="#">User</a></li></ul></div>-->
+    <!--<div class='span4'><ul class="nav nav-list"><li class="active"><a href="#">Response</a></li></ul></div>-->
+  <!--</div>-->
+<% @surveys.each do |survey| %>
+    <div class='row'>
+      <div class='span12'><%=link_to survey.question.content, edit_survey_path(survey) %></div>
+
+    </div>
+<% end %>
+<%= link_to 'New survey', new_survey_path, 'class'=>'btn btn-primary btn-lg'%>
+</div>

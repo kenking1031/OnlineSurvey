@@ -1,0 +1,31 @@
+<% modal ||= false %>
+<% remote = modal ? true : false %>
+
+<%= form_tag session_path,:remote=> remote, :html=>{:role=>:form} do %>
+    <div class="field">
+      <%= label_tag :email %><br />
+      <%= text_field_tag :email %>
+    </div>
+    <div class="field">
+      <%= label_tag :password %><br />
+      <%= password_field_tag :password %>
+    </div>
+    <div class="container">
+      <div class='row'>
+        <div class="span4">
+            <div class="actions">
+              <%= submit_tag 'Login','class'=>'btn btn-default' %>
+            </div>
+        </div>
+        <div class="span4">
+          <div class="actions">
+            Not a user? <%= link_to 'Sign Up',new_user_path,'class'=>'btn btn-default' %>
+          </div>
+        </div>
+        <div class ="span4">
+        </div>
+      </div>
+    </div>
+<% end %>
+
+

@@ -13,3 +13,38 @@
  *= require_tree .
  *= require_self
  */
+.top-buffer { margin-top:10px; }
+.row-padded {
+    padding: 15px;
+    background-color: #F7F7F7;
+    /*border: 1px solid #DDD;*/
+}
+.line-padded{
+    background-color: DARKOLIVEGREEN;
+}
+
+.row-even {
+    background-color: rgba(132, 151, 147, 0.61);
+}
+.row-odd {
+    background-color:#BDE3FB;
+}
+
+.col_padded {
+    padding-top:30px;
+    text-align: right;
+}
+.font-white{
+    color: #fff;
+}
+
+.input-width{
+    width: 500px;
+}
+.notice-ft{
+    color: #ff0000;
+    font-weight: bold;
+}
+.remove-padding{
+    padding-left:0;
+}

@@ -1,0 +1,41 @@
+<% if @survey %>
+<% modal ||= false %>
+<% remote = modal ? true : false %>
+    <%= form_for(@survey, :remote=> remote, :html=>{:role=>:form, 'data-model' => 'survey'}) do |f| %>
+      <% if @survey.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@survey.errors.count, "error") %> prohibited this survey from being saved:</h2>
+
+          <ul>
+          <% @survey.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <div class='row top-buffer'>
+            <div class="span4">
+                  <h3><%= f.label @question.content %> </h3>
+                  <%= f.hidden_field :question_id,:value => @question.id, 'class'=>'control-label input-width' %>
+            </div>
+            <div class='span1'>
+                <%= label :response, "No","class"=>"radio inline control-label"%>
+                <%= f.radio_button :response, false , :checked => true , :value => 0 %>
+             </div>
+             <div class='span1'>
+                <%= label :response, "Yes","class"=>"radio inline control-label remove-padding" %>
+                <%= f.radio_button :response, true, :value => 1%>
+            </div>
+            <div class='span6'>
+            </div>
+      </div>
+
+      <div class='row top-buffer'>
+        <div class="span12">
+          <%= f.submit 'Submit','class'=>'btn btn-default' %>
+        </div>
+
+      </div>
+    <% end %>
+ <% end %>

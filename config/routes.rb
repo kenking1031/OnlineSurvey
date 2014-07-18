@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
-  resources :users
+
+ resources :questions
+ get '/' => "questions#index"
+ resources :surveys
+ resources :users
+ resource :session, :only => [:new, :create, :destroy]
+ get '/login' => "sessions#new", :as => "login"
+ get '/logout' => "sessions#destroy", :as => "logout"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -55,4 +62,6 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  root :to => "questions#index"
 end
