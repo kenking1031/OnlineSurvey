@@ -21,3 +21,19 @@ We're going to build a simple survey tool. With the following requirements:
 == REQUIREMENTS
 
 You should make sure that your app can be run by other developers. Make sure all of your dependencies are listed in your Gemfile and instructions are provided for setup if needed. You may use SQLite or MongoDB.
+
+
+
+
+== Instruction
+
+Environment:
+
+Ruby version : 2.0.0 p451
+Rails version: 4.1.1
+
+Features:
+
+User can respond to any survey without login;
+User needs to login first to create survey question;
+

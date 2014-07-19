@@ -16,6 +16,8 @@
 FactoryGirl.define do
   factory :user do
     name "MyString"
-    email "MyString"
+    email "MyString@mystring.com"
+    password "mysecretkey"
+    password "mysecretkey"
   end
 end

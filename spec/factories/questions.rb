@@ -13,6 +13,11 @@
 
 FactoryGirl.define do
   factory :question do
-    content "MyText"
+    content "MyText my text"
+    user_id "1"
   end
+end
+
+Dir[Rails.root + "factories/*.rb"].each do |file|
+  require file
 end

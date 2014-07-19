@@ -39,6 +39,10 @@
     text-align: center;
 }
 
+.text-center{
+    text-align-last: center;
+}
+
 .input-width{
     width: 500px;
 }

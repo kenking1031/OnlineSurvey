@@ -8,6 +8,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 gem 'execjs'
+gem "minitest"
 
 gem 'annotate'
 gem 'bcrypt', '~> 3.1.7'
@@ -23,12 +24,12 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          :group=>:doc
 
 group :development do
-  gem 'rspec-rails','2.0.1'
   gem 'spring'
 end
 
 group :test,:development do
-  gem 'rspec','2.0.1'
+  gem 'rspec', "~> 2.13.0"
+  gem "rspec-rails", "~> 2.13.0"
   gem 'factory_girl_rails'
 end
 

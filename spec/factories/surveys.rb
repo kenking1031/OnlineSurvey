@@ -14,7 +14,7 @@
 
 FactoryGirl.define do
   factory :survey do
-    response 1
+    response "true"
     user_id 1
     question_id 1
   end
