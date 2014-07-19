@@ -10,9 +10,11 @@
     </div>
     <div class ='span1'></div>
   </div>
-  <div class="row top-buffer row-even font-white">
+  <div class="row row-even font-white">
     <div class='span1'></div>
-    <div class='span9 notice-ft'><% if flash[:notice] %><%= flash[:notice] %><% end %></div>
+    <div class='span9'><% if flash[:notice] %><div class="alert alert-success"><%= flash[:notice] %></div>
+      <% elsif flash[:error] %><div class="alert alert-error"><%= flash[:error] %></div>
+      <% end %></div>
     <div class='span1'><h4>Yes %</h4></div>
     <div class="span1"><h4>No %</h4></div>
   </div>
@@ -30,7 +32,7 @@
     </div>
   <% end %>
 
-    <div class='row top-buffer'>
+    <div class='row top-buffer bottom-margin'>
       <% if session[:user_id] %>
         <%= link_to 'New Survey', '#new_survey_modal', 'data-toggle' => 'modal', 'class' =>'btn btn-default' %>
       <% else %>

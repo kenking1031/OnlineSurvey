@@ -1,8 +1,21 @@
-<div class="container">
+<div class = "container">
   <div class="row row-odd">
     <div class="span12">
       <h1>Sign Up</h1>
     </div>
   </div>
+  <% if flash[:notice] %>
+  <div class = "row row-padded">
+    <% flash.each do |key, value| %>
+
+        <div class="alert alert-error">
+
+          <%= raw flash_format(value) %>
+
+        </div>
+
+    <% end %>
+  </div>
+  <% end %>
   <%= render 'form' %>
 </div>

@@ -7,4 +7,19 @@ class ApplicationController < ActionController::Base
         redirect_to login_path
     end
   end
+
+  def convert_hash(hash)
+
+    output=""
+
+    hash.each do |k,v|
+
+      output += "#{k.to_s.upcase} : #{v.map(&:inspect).join(', ')}"
+
+    end
+
+    output
+
+  end
+
 end

@@ -32,7 +32,5 @@ group :test,:development do
   gem 'factory_girl_rails'
 end
 
-gem 'debugger', :group =>[:development, :test]
-
 
 

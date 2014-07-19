@@ -36,6 +36,7 @@
 }
 .font-white{
     color: #fff;
+    text-align: center;
 }
 
 .input-width{
@@ -48,3 +49,5 @@
 .remove-padding{
     padding-left:0;
 }
+
+.bottom-margin{margin-bottom: 30px;}
