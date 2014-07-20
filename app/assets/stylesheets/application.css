@@ -55,3 +55,7 @@
 }
 
 .bottom-margin{margin-bottom: 30px;}
+
+.top-layer{
+    z-index: 10;
+}
