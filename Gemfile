@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.1.1'
-gem 'sqlite3'
+
 gem 'sass-rails', '~> 4.0.3'
 
 gem 'uglifier', '>= 1.3.0'
@@ -13,7 +13,7 @@ gem "minitest"
 gem 'annotate'
 gem 'bcrypt', '~> 3.1.7'
 
-
+gem 'thin'
 
 gem 'jquery-rails','~> 3.1.1'
 
@@ -31,7 +31,12 @@ group :test,:development do
   gem 'rspec', "~> 2.13.0"
   gem "rspec-rails", "~> 2.13.0"
   gem 'factory_girl_rails'
+  gem 'sqlite3'
 end
 
+
+group :production do
+  gem 'pg'
+end
 
 
