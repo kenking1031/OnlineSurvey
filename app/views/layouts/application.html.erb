@@ -9,9 +9,12 @@
 <body>
 
 <%= yield %>
-<div class='container'>
-  <div class='row row-odd font-white'><h5>Developed by Lixiang Jiang for Apple Survey Assignment</h5></div>
-</div>
+<% if controller.controller_name == 'surveys' %>
+<% else %>
+    <div class='container'>
+      <div class='row row-odd font-white'><h5>Developed by Lixiang Jiang for Apple Survey Assignment</h5></div>
+    </div>
+<% end %>
 </body>
 </html>
 
