@@ -32,7 +32,7 @@
     <file path="$PROJECT_DIR$/../GoldenGate/app/templates/videos-show.liquid" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405469206410" ignored="false" />
     <file path="/videos-show.liquid" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405468803377" ignored="false" />
     <file path="/questions_controller.rb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405715420407" ignored="false" />
-    <file path="/_form.html.erb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405880947865" ignored="false" />
+    <file path="/_form.html.erb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405882500686" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/app/assets/javascripts/primetimeplayer/playerControls.js" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405467160220" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/public/multimedia/primetimeplayer/PlayerPlatformAPI.swf" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405468574193" ignored="false" />
     <file path="$PROJECT_DIR$/../GoldenGate/public/multimedia/config/config.xml" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405463603487" ignored="false" />
@@ -42,7 +42,7 @@
     <file path="/survey.rb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405697509559" ignored="false" />
     <file path="/new.html.erb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405730817554" ignored="false" />
     <file path="/edit.html.erb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405640886913" ignored="false" />
-    <file path="/application.css" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405878659803" ignored="false" />
+    <file path="/application.css" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405882493679" ignored="false" />
     <file path="/20140708215229_create_questions.rb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405658144892" ignored="false" />
     <file path="/20140708222754_create_surveys.rb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405712185506" ignored="false" />
     <file path="/new.erb" changelist="f6b809fe-28b9-445e-91f2-106fd5250399" time="1405714020579" ignored="false" />
@@ -135,19 +135,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_modal.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_modal.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/questions/_modal.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="434" selection-end="434" vertical-scroll-proportion="0.2453271">
+            <state line="7" column="28" selection-start="434" selection-end="434" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="32" selection-start="573" selection-end="573" vertical-scroll-proportion="-6.875">
+            <state line="24" column="102" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.66588783">
               <folding />
             </state>
           </provider>
@@ -156,7 +156,7 @@
       <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="30" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+            <state line="62" column="12" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,11 +192,11 @@
         <option value="$PROJECT_DIR$/config/secrets.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/questions/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/questions/_modal.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/surveys/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -1057,14 +1057,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6739394" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2159254" sideWeight="0.609697" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39030302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39030302" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2969697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1221,13 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="30" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="17" selection-start="520" selection-end="520" vertical-scroll-proportion="-12.5">
@@ -1242,16 +1235,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/questions/_modal.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="573" selection-end="573" vertical-scroll-proportion="-6.875">
+        <state line="7" column="28" selection-start="434" selection-end="434" vertical-scroll-proportion="-4.375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/questions/_modal.erb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="434" selection-end="434" vertical-scroll-proportion="0.2453271">
+        <state line="62" column="12" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/surveys/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="102" selection-start="1030" selection-end="1030" vertical-scroll-proportion="0.66588783">
           <folding />
         </state>
       </provider>
