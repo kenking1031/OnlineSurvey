@@ -21,11 +21,12 @@
   <% row_id = 0 %>
   <% @questions.each do |question| %>
       <% row_id+=1 %>
+        <%= render '/questions/modal' %>
         <div class='row top-buffer  <% if row_id%2==0 %>row-odd<% end %>'>
         <div class="span1"><%= row_id %></div>
         <div class="span9"><%=link_to question.content, '#new_response_modal','data-toggle' => 'modal', :href => "#{new_survey_path}?question_id=#{question.id}", "data-target"=>"#new_response_modal" %></div>
 
-          <%= render '/questions/modal' %>
+
 
         <div class='span1 text-center'><%= question.yes_percent %></div>
         <div class="span1 text-center"><%= question.no_percent %></div>
